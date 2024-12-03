@@ -53,7 +53,7 @@ class EventImageSlider extends StatelessWidget {
                             dark ? EventColors.dark : EventColors.white,
                         border: Border.all(color: EventColors.primary),
                         padding: const EdgeInsets.all(EventSizes.sm),
-                        imageUrl: EventImages.productImage3)),
+                        imageUrl: EventImages.productImage1)),
               ),
             ),
 

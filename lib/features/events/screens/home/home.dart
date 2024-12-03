@@ -68,7 +68,7 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     // Slider
                     const EventPromoSlider(
-                      banners: [EventImages.banner1, EventImages.banner2],
+                      banners: [EventImages.banner01, EventImages.banner01],
                     ),
                     const SizedBox(height: EventSizes.spaceBtwSections),
 

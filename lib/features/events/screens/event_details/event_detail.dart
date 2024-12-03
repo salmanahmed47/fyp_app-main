@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:interestin_event_app/common/widgets/texts/section_heading.dart';
 import 'package:interestin_event_app/features/events/screens/event_details/widgets/event_metadata.dart';
@@ -6,6 +7,7 @@ import 'package:interestin_event_app/utils/constants/sizes.dart';
 import 'package:readmore/readmore.dart';
 // import 'package:interestin_event_app/utils/helpers/helper_functions.dart';
 
+import '../event_reviews/event_reviews.dart';
 import 'widgets/bottom_add_to_cart.dart';
 import 'widgets/event_attributes.dart';
 import 'widgets/event_details_image_slider.dart';
@@ -85,7 +87,8 @@ class EventDetails extends StatelessWidget {
                         showActionButton: false,
                       ),
                       IconButton(
-                          onPressed: () {},
+                          onPressed: () =>
+                              Get.to(() => const EventReviewsScreen()),
                           icon: const Icon(
                             Iconsax.arrow_right_3,
                             size: 18,

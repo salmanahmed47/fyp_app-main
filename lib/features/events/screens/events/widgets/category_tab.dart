@@ -24,8 +24,8 @@ class EventCategoryTab extends StatelessWidget {
                 const SocietyShowcase(
                   images: [
                     EventImages.productImage1,
-                    EventImages.productImage2,
-                    EventImages.productImage3
+                    EventImages.productImage1,
+                    EventImages.productImage1
                   ],
                 ),
                 const SizedBox(height: EventSizes.spaceBtwItems),

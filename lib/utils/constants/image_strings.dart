@@ -67,7 +67,8 @@ class EventImages {
       "assets/images/on_boarding_images/sammy-line-delivery.gif";
 
   // -- Products
-  static const String productImage1 = "assets/images/products/nike-shoes.png";
+  static const String productImage1 =
+      "assets/images/products/event-image-1.png";
   static const String productImage2 = "assets/images/products/product-1.png";
   static const String productImage3 =
       "assets/images/products/product-jacket.png";
@@ -229,6 +230,7 @@ class EventImages {
   // static const String promoBanner1 = "assets/images/banners/promo-banner-1.png";
   // static const String promoBanner2 = "assets/images/banners/promo-banner-2.png";
   // static const String promoBanner3 = "assets/images/banners/promo-banner-3.png";
+  static const String banner01 = "assets/images/banners/banner_01.jpg";
   static const String banner1 = "assets/images/banners/banner_1.jpg";
   static const String banner2 = "assets/images/banners/banner_2.jpg";
   static const String banner3 = "assets/images/banners/banner_3.jpg";
