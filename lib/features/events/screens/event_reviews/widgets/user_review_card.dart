@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:iconsax/iconsax.dart';
 import 'package:interestin_event_app/common/widgets/custom_shapes/containers/event_rounded_container.dart';
 import 'package:interestin_event_app/common/widgets/events/ratings/rating_indicator.dart';
 import 'package:interestin_event_app/utils/constants/colors.dart';

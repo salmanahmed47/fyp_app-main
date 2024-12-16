@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:iconsax/iconsax.dart';
 import 'package:interestin_event_app/common/widgets/appbar/appbar.dart';
-import 'package:interestin_event_app/utils/constants/colors.dart';
 import '../../../../common/widgets/events/ratings/rating_indicator.dart';
 import '../../../../utils/constants/sizes.dart';
 import 'widgets/rating_progress.dart';
